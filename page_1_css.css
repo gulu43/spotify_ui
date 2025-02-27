@@ -1,0 +1,370 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Odin{
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#left_side{
+    width: 17%;
+    height: 90vh;
+    background-color: black;
+    color: white;
+
+    /* border: 1px solid white; */
+    overflow-y: scroll;
+
+
+}
+#right_side{
+    width: 83%;
+    height: 90vh;
+    background-color: #222222;
+    color: white;
+    /* border: 10px solid palegoldenrod; */
+}
+
+/* temp check */
+#bottom_grid{
+    width: 78%;
+    height: 690px;
+    /* border: 5px solid rebeccapurple; */
+    overflow-y: scroll;
+}
+
+/* left part  all*/
+#left_side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sp_logo{
+    margin-top: 50px;
+    margin-right: 90px;
+
+}
+#left_g_1{
+    margin-top: 40px;
+}
+
+#left_g_1 div{
+    padding-left: 30px;
+    padding-right: 120px;
+    margin: 5px 0px;
+    margin-right: 10px;
+    
+}
+
+#left_g_1 div:hover{
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+#fi_id,#sec_id,#thir_id{
+    display: flex;
+    align-items: center;
+}
+
+.f3 a{
+    margin: 20px 0px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+#fi_id_1,#sec_id_2,#thir_id_3{
+    display: flex;
+    align-items: center;
+}
+
+#left_g_2{
+    margin-top: 40px;
+}
+
+#left_g_2 div{
+    
+    padding-left: 30px;
+    padding-right: 120px;
+    margin: 5px 0px;
+    margin-right: 10px;
+}
+#left_g_2 div:hover{
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.s3 a{
+
+    margin: 20px 0px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+#text_g_id{
+    display: flex;
+    flex-direction: column;
+   
+}
+.t3{
+    margin-top: 20px;
+}
+.t3 a{
+    margin: 15px 0px;
+    margin-right: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+#down_id{
+    display: flex;
+    align-items: end;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 130px;
+}
+#down_id:hover{
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.forth3 a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+
+/* right side */
+
+/* top part */
+#top_right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px; /* temp */
+}
+#top_left{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+
+}
+#top_right_in{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;    
+    align-items: center;
+
+}
+#top_right_elements_id{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: black;
+    align-items: center;
+}
+#top_right_elements_id p{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+#arrow_d{
+    padding: 0px 10px;
+}
+
+/* good morning text */
+#top_grid_text{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#top_grid_text p{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* top upper */
+
+#top_grid_contaner{
+    width: 1610px;
+    height: auto;
+    /* border: 2px solid red; */
+}
+#top_grid_contaner{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 95px 95px ;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.top_grid_item{
+background-color: #303030;
+border-radius: 5px ;
+
+}
+.top_grid_item img{
+    position: relative;
+    border-radius: 5px ;
+    width: auto;
+    height: 100%;
+    
+}
+
+.top_grid_item a{
+    /* bit cheating here use position*/
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 33px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+/*Shows you might like part test */
+#text_bottom_grid{
+    display: flex;
+    justify-content: space-between;
+
+}
+#p1{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 50px ;
+    
+}
+#p2{
+    font-size: 20px;
+    opacity: 0.5;
+    font-weight: 500;
+    margin: 20px 100px ;
+    /* margin-right: 150px; */
+    
+}
+/* bottom grid */
+#bottom_grid_contaner{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px ;
+    gap: 30px;
+}
+.artist_class{
+    background-color: #181818;
+    border-radius: 10px;
+}
+.artist_class img{
+    height: 70%;
+    object-fit: fill;
+    border-radius: 20px;
+    padding: 30px;
+}
+.gp1{
+    
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.gp2{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+#bottom_grid{
+    margin-left: 50px;
+    position: relative;
+}
+
+/* last  */
+#player_controls_controler{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#control_position{
+    width: 100%;
+    height: 140px;
+
+    bottom: 0; /*fixes it at zero*/
+    left: 0; /*fixes it at zero*/
+    z-index: 1000; /*above encore*/
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid palegreen; */
+}
+#last_up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px;  */
+    background-color: #181818;
+}
+#last_left_img{
+    width: 225px;
+    height: 70px;
+    margin-left: 15px;
+}
+#last_right_img{
+    margin-right: 103px;
+}
+
+.last_up_class img{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* last green */
+#last_down{
+    /* background-color: #1ed760; */
+    background-color: #181818;
+    margin-top: 150px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+        
+}
+#green_btn{
+    margin-left: 500px;
+}
+.last_down_class p{
+    position: absolute;
+    background-color: #1ed760;
+    margin-top: 11px;
+}
+#fill_left{
+    width: 500px;
+    height: 30px;
+}
+#fill_right{
+    background-color: #1ed760;
+    margin-left: 2219px;
+    width: 80px;
+    height: 30px;
+}
